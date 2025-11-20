@@ -2,6 +2,7 @@ from fastapi import APIRouter, HTTPException
 from api.email_model import EmailModel
 from db.mongodb import emails_col
 from utils.classifier import classify
+from api.email_model import EmailModel
 
 router = APIRouter()
 
